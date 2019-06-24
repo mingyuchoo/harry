@@ -105,7 +105,7 @@ def generate_entry(entry):
                                             path=url_dict['path'],
                                             domain=url_dict['domain'],
                                             protocol=url_dict['protocol'],
-                                           method=entry.request.method,
+                                            method=entry.request.method,
                                             port=443)
     return generated_entry
 
